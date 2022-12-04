@@ -112,6 +112,7 @@
                                                 <td><div class="btn-group-vertical">
                                                     <a href="editPesanan.php?id=<?php echo $row['id']?>"><button type="button" class="btn btn-info" >Edit</button></a>
                                                     <a href="hapusPesanan.php?id=<?php echo $row['id']?>"><button type="submit" class="btn btn-danger" onclick="return confirm('Anda yakin ingin menghapus?')">Hapus</button></a>
+                                                    <a href="bayar.php?id=<?php echo $row['id']?>"><button type="submit" class="btn btn-warning" >Pembayaran</button></a>
                                                 </div></td>
                                             </tr>
                                             <?php } ?>
